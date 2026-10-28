@@ -1,0 +1,22 @@
+Local GCC validation performed while preparing this package.
+
+rollover: return code 0
+sizeof(meter_t) = 2 bytes, maximum reading = 65535
+Consumption: 330 units
+Consumption: 256 units
+
+billing: return code 0
+  0 units -> Rs 50.00
+100 units -> Rs 50.00
+150 units -> Rs 162.50
+200 units -> Rs 275.00
+350 units -> Rs 950.00
+
+macros: return code 0
+Rs 12 in paise = 1200
+SQUARE(a + 1) = 16
+MAX(a, b) = 7
+Inline square(4) = 16
+Inline max(3, 7) = 7
+
+preprocessor: return code 0
